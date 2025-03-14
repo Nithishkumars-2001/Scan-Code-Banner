@@ -14,9 +14,9 @@
     display: grid;
     place-items: center;
     width: 450px;
-    height: 85vh;
+    height: auto;
     border: 2px inset transparent;
-    background-image: url(images\ \(1\).jpg);
+    background-image: url(img/page-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -28,7 +28,7 @@
 .white-circle{
     text-align: center;
     width: 420px;
-    height: 82vh;
+    height: auto;
     background-color: #fff;
     border-radius: 30px;
 }
