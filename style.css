@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.qr-box{
+    display: grid;
+    place-items: center;
+    width: 450px;
+    height: 85vh;
+    border: 2px inset transparent;
+    background-image: url(images\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.white-circle{
+    text-align: center;
+    width: 420px;
+    height: 82vh;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.gpay-text img{
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 150px;
+}
+
+.owner-name h2{
+    letter-spacing: 1px;
+    color: linear-gradient(90deg, #00dbde, #fc00ff);
+    text-transform: uppercase;
+}
+
+.owner-name h4{
+    color: gray;
+    
+}
+
+.scan-code{
+    padding-top: 10px;
+}
+
+.scan-code img{
+    width: 300px;
+    height: 300px;
+}
+
+.scan-code p{
+    padding-top: 20px;
+}
+
+.pay-logo{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+.pay-logo img{
+    width: 150px;
+    height: 100px;
+}
+
+.star-degin{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.star-degin i{
+    padding-right: 15px;
+    font-size: 20px;
+    color: goldenrod;
+
+}
